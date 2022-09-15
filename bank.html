@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 03</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+<body>
+
+    <section class="bg-red-100">
+         <div class="container w-8/12 mx-auto py-20">
+            <h2 class="mb-8 text-4xl text-center">This is a Bank Widrow System</h2>
+
+            <div class="grid grid-cols-3 gap-4 ">
+                <div class=" p-6 bg-red-500 text-4xl text-white rounded">
+                    <h3 class="mb-4">Diposit money</h3>
+                    <p>$<span id="dip-money">00</span></p>
+                </div>
+                <div class="p-6 text-4xl text-white bg-lime-500 rounded">
+                    <h3 class="mb-4">Widrow money</h3>
+                    <p>$<span id="wid-money">00</span></p>
+                </div>
+                <div class="p-6 text-4xl text-white bg-green-500 rounded">
+                    <h3 class="mb-4">Total Balence</h3>
+                    <p>$<span id="total-money">1200</span></p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 mt-10">
+                <div class="bg-green-500 rounded p-6">
+                    <h2 class="text-white mb-2 text-4xl">Please deposit</h2>
+                    <input id="dip-int-vlue" class="w-8/12 p-2 rounded" type="text" placeholder="$ Enter amount for deposit">
+                    <button id="dip-btn" class="p-2 bg-black text-white rounded block mt-4">
+                        Deposit
+                    </button>
+                </div>
+                <div class="bg-orange-500 rounded p-6">
+                    <h2 class="text-white mb-2 text-4xl">Widrow money</h2>
+                    <input id="wid-int-value" class="w-8/12 p-2 rounded" type="text" placeholder="$ Enter amount for deposit">
+                    <button id="wid-btn" class="p-2 bg-black text-white rounded block mt-4">
+                        Widrow
+                    </button>
+                </div>
+             </div>
+
+         </div>
+    </section>
+    
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
